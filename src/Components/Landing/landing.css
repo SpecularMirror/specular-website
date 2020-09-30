@@ -1,0 +1,133 @@
+
+#big_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+#big_section_components {
+    margin-top: 50px;
+}
+#big_section_components h1 {
+    font-size: 65px;
+    margin-right: 45px;
+    font-family: Finador;
+    margin-bottom: 10px;
+}
+#big_section_components h2 {
+    margin-top: 0px;
+    margin-right: 45px;
+    font-family: Finador;
+    font-weight: lighter;
+    color: rgb(112, 112, 112);
+}
+#green-word {
+    color: #69F0AE;
+}
+.social_icon img{
+    width: 20px;
+    height: 20px;
+}
+.social_icon {
+    margin-right: 10px;
+}
+
+
+
+#medium_article {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    box-shadow: 0px 1px 7px rgba(128, 128, 128, 0.637);
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(100% - 20%);
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 175px;
+    margin-bottom: 50px;
+}
+#medium_article_img {
+    width: 200px;
+    height: 175px;
+    object-fit: cover;
+}
+#medium_article_container {
+    padding-left: 10px;
+}
+#lil_lbl {
+    font-family: Finador;
+    color: rgb(112, 112, 112);
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#lil_h3 {
+    margin-top: 5px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+#lil_desc {
+    margin-top: 5px;
+    padding-right: 10px;
+}
+#link_medium {
+    border-style: solid;
+    border-color: #757575;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    text-decoration: none;
+}
+#link_medium img {
+    width: 20px;
+}
+#link_medium p {
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+    #big_section {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 35px
+    }
+    #big_section_img {
+        margin-top: 50px;
+        width: 100%;
+    }
+    #big_section_components h1 {
+        font-size: 50px;
+        margin-right: 0px;
+    }
+    #big_section_components h2 {
+        margin-right: 0px;
+    }
+
+}
+@media screen and (max-width: 800px) {
+
+    #medium_article {
+        flex-direction: column;
+        height: 400px;
+    }
+    #medium_article_img {
+        width: 100%;
+        height: 175px;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Finador;
+  src: url("./Assets/Fonts/Finador-Medium.otf");
+  font-weight: medium;
+}
+@font-face {
+  font-family: Finador;
+  src: url("./Assets/Fonts/Finador-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Finador;
+  src: url("./Assets/Fonts/Finador-Regular.otf");
+}
+#about_proj {
+  font-family: Finador;
+  margin-left: 10%;
+}
