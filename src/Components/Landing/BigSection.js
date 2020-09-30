@@ -8,6 +8,7 @@ import Facebook from '../../Assets/facebook.svg';
 import Twitter from '../../Assets/twitter.svg';
 import Medium from '../../Assets/medium.svg';
 import GitHub from '../../Assets/github.svg';
+import TikTok from '../../Assets/tiktok.svg';
 
 function BigSection() {
     return(
@@ -32,6 +33,9 @@ function BigSection() {
                     </a>
                     <a href="https://github.com/SpecularMirror/" target="_blank" className="social_icon">
                         <img src={GitHub} alt="Specular GitHub Account"></img>
+                    </a>
+                    <a href="https://tiktok.com/@specularmirror/" target="_blank" className="social_icon">
+                        <img src={TikTok} alt="Specular TikTok Account"></img>
                     </a>
                 </div>
             </div>
