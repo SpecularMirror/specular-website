@@ -34,7 +34,7 @@ function BigSection() {
                     <a href="https://github.com/SpecularMirror/" target="_blank" className="social_icon">
                         <img src={GitHub} alt="Specular GitHub Account"></img>
                     </a>
-                    <a href="https://tiktok.com/@specularmirror/" target="_blank" className="social_icon">
+                    <a href="https://www.tiktok.com/@specularmirror/" target="_blank" className="social_icon">
                         <img src={TikTok} alt="Specular TikTok Account"></img>
                     </a>
                 </div>
